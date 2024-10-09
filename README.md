@@ -36,27 +36,44 @@ print(isHappy(int(input())))
 </pre>
 
 >```python  
->docker exec <your container> cat /etc/os-release 
+>docker exec ubuntu-container cat /etc/os-release 
 >``` 
 >* Explanation of commaindline and your ouptut
+>> output: PRETTY_NAME="Ubuntu 24.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.1 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
 
 </pre>  
 
 >```python   
->docker exec <your container> git --version
+>docker exec ubuntu-container git --version
 >```
 >* Explanation of commaindline and your ouptut
+>> output: git version 2.43.0
 
 </pre>
 
 >```python   
->docker exec <your container> python3 --version
+>docker exec ubuntu-container python3 --version
 >```
 >* Explanation of commaindline and your ouptut
+>> output:Python 3.12.3
+
 
 </pre>
 
 >```python   
->docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
+>docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
 >```
 >* Explanation of commaindline and your ouptut
+>> output:[./ossp_host_dir:/mnt/ubuntu-container_dir]
