@@ -38,7 +38,7 @@ print(isHappy(int(input())))
 ```python   
 docker exec <your container> cat /etc/os-release 
 ```
->>* Explanation of commaindline and your ouptut
+>* Explanation of commaindline and your ouptut
 
 </pre>  
 
