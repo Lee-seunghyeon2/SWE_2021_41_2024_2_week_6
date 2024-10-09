@@ -35,7 +35,7 @@ print(isHappy(int(input())))
 
 </pre>
 
->```python   
+>```ubuntu   
 >docker exec <your container> cat /etc/os-release 
 >``` 
 >* Explanation of commaindline and your ouptut
