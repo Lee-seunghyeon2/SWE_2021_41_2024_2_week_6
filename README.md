@@ -1,7 +1,7 @@
 # SWE_2021_41_2024_2_week_6
 ---
 ## WeeK 4 Assignment
-* Link of your repository [Github](https://github.com/Lee-seunghyeon2/-SWE_2021_41_2024_2_week_4/blob/main/2021310999_%EC%9D%B4%EC%8A%B9%ED%98%84%20(5).ipynb)  
+* Link of your repository    [Github](https://github.com/Lee-seunghyeon2/-SWE_2021_41_2024_2_week_4/blob/main/2021310999_%EC%9D%B4%EC%8A%B9%ED%98%84%20(5).ipynb)  
 </pre>
 
 ```python
