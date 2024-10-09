@@ -32,9 +32,10 @@ print(isHappy(int(input())))
 ---
 ## Week 5 Assignment
 
+>*
 </pre>
 
->```python   
+```python   
 docker exec <your container> cat /etc/os-release 
 ```
 * Explanation of commaindline and your ouptut
