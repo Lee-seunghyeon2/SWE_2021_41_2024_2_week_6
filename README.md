@@ -40,19 +40,20 @@ print(isHappy(int(input())))
 >``` 
 >* Explanation of commaindline and your ouptut
 >> output: PRETTY_NAME="Ubuntu 24.04.1 LTS"
-NAME="Ubuntu"
-VERSION_ID="24.04"
-VERSION="24.04.1 LTS (Noble Numbat)"
-VERSION_CODENAME=noble
-ID=ubuntu
-ID_LIKE=debian
-HOME_URL="https://www.ubuntu.com/"
-SUPPORT_URL="https://help.ubuntu.com/"
-BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
-PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
-UBUNTU_CODENAME=noble
-LOGO=ubuntu-logo
+>> NAME="Ubuntu"
+>> VERSION_ID="24.04"
+>> VERSION="24.04.1 LTS (Noble Numbat)"
+>> VERSION_CODENAME=noble
+>> ID=ubuntu
+>> ID_LIKE=debian
+>> HOME_URL="https://www.ubuntu.com/"
+>> SUPPORT_URL="https://help.ubuntu.com/"
+>> BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+>> PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+>> UBUNTU_CODENAME=noble
+>> LOGO=ubuntu-logo
 
+>> Explanation:
 </pre>  
 
 >```python   
@@ -61,14 +62,17 @@ LOGO=ubuntu-logo
 >* Explanation of commaindline and your ouptut
 >> output: git version 2.43.0
 
+>> Explanation:
+
 </pre>
 
 >```python   
 >docker exec ubuntu-container python3 --version
 >```
 >* Explanation of commaindline and your ouptut
->> output:Python 3.12.3
+>> output: Python 3.12.3
 
+>> Explanation:
 
 </pre>
 
@@ -76,4 +80,6 @@ LOGO=ubuntu-logo
 >docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
 >```
 >* Explanation of commaindline and your ouptut
->> output:[./ossp_host_dir:/mnt/ubuntu-container_dir]
+>> output: [./ossp_host_dir:/mnt/ubuntu-container_dir]
+
+>> Explanation:
