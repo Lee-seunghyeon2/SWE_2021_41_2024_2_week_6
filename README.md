@@ -95,6 +95,6 @@ LOGO=ubuntu-logo
 >docker inspect --format="{{ .HostConfig.Binds }}" ubuntu-container
 >```
 >* Explanation of commaindline and your ouptut
-> output: [./ossp_host_dir:/mnt/ubuntu-container_dir]
+>> output: [./ossp_host_dir:/mnt/ubuntu-container_dir]
 
-> Explanation:
+>> Explanation:
