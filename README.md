@@ -40,9 +40,9 @@ print(isHappy(int(input())))
 >``` 
 >* Explanation of commaindline and your ouptut
 
->output: PRETTY_NAME="Ubuntu 24.04.1 LTS"
+>* output: PRETTY_NAME="Ubuntu 24.04.1 LTS"
 
-NAME="Ubuntu"
+>>NAME="Ubuntu"
 
 VERSION_ID="24.04"
 
@@ -67,7 +67,7 @@ UBUNTU_CODENAME=noble
 
 LOGO=ubuntu-logo
 
->Explanation:
+>*Explanation:
 
 </pre>  
 
@@ -75,9 +75,8 @@ LOGO=ubuntu-logo
 >docker exec ubuntu-container git --version
 >```
 >* Explanation of commaindline and your ouptut
-> output: git version 2.43.0
-
-> Explanation:
+>* output: git version 2.43.0
+>* Explanation:
 
 </pre>
 
@@ -85,9 +84,8 @@ LOGO=ubuntu-logo
 >docker exec ubuntu-container python3 --version
 >```
 >* Explanation of commaindline and your ouptut
-> output: Python 3.12.3
-
-> Explanation:
+>* output: Python 3.12.3
+>* Explanation:
 
 </pre>
 
