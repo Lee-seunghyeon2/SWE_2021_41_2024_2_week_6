@@ -31,8 +31,12 @@ print(isHappy(int(input())))
 * Description of your code
 ---
 ## Week 5 Assignment
-> docker exec <your container> cat /etc/os-release
-> * Explanation of commaindline and your ouptut
+<pre>
+<code>    
+docker exec <your container> cat /etc/os-release
+</code>    
+* Explanation of commaindline and your ouptut
+
 > docker exec <your container> git --version
 > * Explanation of commaindline and your ouptut
 > docker exec <your container> python3 --version
