@@ -34,13 +34,13 @@ print(isHappy(int(input())))
 
 </pre>
 
-```python   
+>```python   
 docker exec <your container> cat /etc/os-release 
 ```
 * Explanation of commaindline and your ouptut
 
 </pre>  
->
+
 ```python   
 docker exec <your container> git --version
 ```
