@@ -40,18 +40,21 @@ docker exec <your container> cat /etc/os-release
 * Explanation of commaindline and your ouptut
 
 </pre>  
+
 ```python   
 docker exec <your container> git --version
 ```
 * Explanation of commaindline and your ouptut
 
 </pre>
+
 ```python   
 docker exec <your container> python3 --version
 ```
 * Explanation of commaindline and your ouptut
 
 </pre>
+
 ```python   
 docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
 ```
