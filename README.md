@@ -1,7 +1,7 @@
 # SWE_2021_41_2024_2_week_6
 ---
 ## WeeK 4 Assignment
-* Link of your reposiotry
+* Link of your repository
 </pre>
 
 ```python
@@ -31,14 +31,14 @@ print(isHappy(int(input())))
 * Description of your code
 ---
 ## Week 5 Assignment
-<pre>
-<code>    
-docker exec <your container> cat /etc/os-release
-</code>    
-* Explanation of commaindline and your ouptut
+</pre>
 
-> docker exec <your container> git --version
-> * Explanation of commaindline and your ouptut
+```python   
+> docker exec <your container> cat /etc/os-release 
+>>* Explanation of commaindline and your ouptut
+```
+docker exec <your container> git --version
+* Explanation of commaindline and your ouptut
 > docker exec <your container> python3 --version
 > * Explanation of commaindline and your ouptut
 > docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
