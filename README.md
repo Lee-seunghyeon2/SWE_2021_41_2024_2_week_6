@@ -38,15 +38,13 @@ print(isHappy(int(input())))
 >```python  
 >docker exec ubuntu-container cat /etc/os-release 
 >``` 
->* Explanation of commaindline and your ouptut
-
+> * Explanation of commaindline and your ouptut
 >* output: PRETTY_NAME="Ubuntu 24.04.1 LTS"
+>NAME="Ubuntu"
 
->>NAME="Ubuntu"
+>VERSION_ID="24.04"
 
-VERSION_ID="24.04"
-
-VERSION="24.04.1 LTS (Noble Numbat)"
+>VERSION="24.04.1 LTS (Noble Numbat)"
 
 VERSION_CODENAME=noble
 
