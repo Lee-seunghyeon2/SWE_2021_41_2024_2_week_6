@@ -31,8 +31,8 @@ print(isHappy(int(input())))
 * Description of your code
 ---
 ## Week 5 Assignment
-> </pre>
-
+</pre>
+>
 ```python   
 docker exec <your container> cat /etc/os-release 
 ```
