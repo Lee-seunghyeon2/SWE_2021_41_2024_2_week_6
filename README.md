@@ -53,7 +53,8 @@ BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
 UBUNTU_CODENAME=noble
 >>LOGO=ubuntu-logo
->* Explanation:
+>* Explanation: 실행중인 docker container에서 cat 명령어를 사용하여 /etc/os-release 내용을 출력한다.
+이때 container의 이름은 ubuntu-container이다.
 
 </pre>  
 
@@ -62,7 +63,7 @@ UBUNTU_CODENAME=noble
 >```
 >* Explanation of commaindline and your ouptut
 >* output: git version 2.43.0
->* Explanation:
+>* Explanation: 
 
 </pre>
 
