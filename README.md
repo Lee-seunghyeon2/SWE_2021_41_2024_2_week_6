@@ -65,7 +65,7 @@ UBUNTU_CODENAME=noble
 >* output: git version 2.43.0
 >* Explanation: 실행중인 docker container에서 git의 설치 여부와 버젼 정보를 출력한다.
 
-이때 container의 이름은 ubuntu-container이다.
+> 이때 container의 이름은 ubuntu-container이다.
 
 </pre>
 
