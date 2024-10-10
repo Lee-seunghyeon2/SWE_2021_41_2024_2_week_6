@@ -63,7 +63,8 @@ UBUNTU_CODENAME=noble
 >```
 >* Explanation of commaindline and your ouptut
 >* output: git version 2.43.0
->* Explanation: 
+>* Explanation: 실행중인 docker container에서 git의 설치 여부와 버젼 정보를 출력한다.
+이때 container의 이름은 ubuntu-container이다.
 
 </pre>
 
@@ -72,7 +73,8 @@ UBUNTU_CODENAME=noble
 >```
 >* Explanation of commaindline and your ouptut
 >* output: Python 3.12.3
->* Explanation:
+>* Explanation: 실행중인 docker container에서 python의 설치 여부와 버젼 정보를 출력한다.
+이때 container의 이름은 ubuntu-container이다.
 
 </pre>
 
@@ -81,4 +83,6 @@ UBUNTU_CODENAME=noble
 >```
 >* Explanation of commaindline and your ouptut
 >* output: [./ossp_host_dir:/mnt/ubuntu-container_dir]
->* Explanation:
+>* Explanation: docker inspect을 통하여 docker container의 정보를 확인한다.
+이때 확인할 정보는 .HostConfig.Binds이며 container 이름은 ubuntu-container이다.
+결과로 host 디렉토리와 container 디렉토리에서 마운트된 디렉토리를 보여준다.
