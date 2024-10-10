@@ -29,6 +29,7 @@ def isHappy(n):
 print(isHappy(int(input())))
 ```
 * Description of your code
+  ishappy()는 입력받은 숫자가 happy num인지 확인하는 함수이다. 이때 happy num은 각 자리수의 제곱의 합을 구하고, 다시 그 합을 입력받는 값으로 사용하여, 결과값이 1이 나올 수 있는 수이다. 
 ---
 ## Week 5 Assignment
 
@@ -64,8 +65,7 @@ UBUNTU_CODENAME=noble
 >* Explanation of commaindline and your ouptut
 >* output: git version 2.43.0
 >* Explanation: 실행중인 docker container에서 git의 설치 여부와 버젼 정보를 출력한다.
-
-> 이때 container의 이름은 ubuntu-container이다.
+이때 container의 이름은 ubuntu-container이다.
 
 </pre>
 
