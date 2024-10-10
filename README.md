@@ -41,7 +41,9 @@ print(isHappy(int(input())))
 > 이렇게 총 3 단계로 나눠지게 된다.
 > 1번의 과정은 list를 만들어 각 자리를 제곱의 값을 list에 추가하였고, sum을 이용하여 list의 합을 구하였다.
 > 2번의 과정은 set을 만들어 list의 합이 1이라면 True를 반환하도록, 그렇지 않으면 set에 추가되도록 하였다.
-> 3번의 과정은 while 반복문을 
+> 3번의 과정은 while 반복문을 set에 중복된 숫자가 없을 때 까지 반복하도록 하였다.
+>
+> 이를 통해 입력된 숫자가 happy num이면 True를, 아니면 False를 반환하도록 하였다.
 ---
 ## Week 5 Assignment
 
